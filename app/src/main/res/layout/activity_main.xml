@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btn_webView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(项目使用,无须关注)网页展示" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="nfc的使用流程，重点关注下面这个：" />
+
+    <Button
+        android:id="@+id/btn_nfc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nfc读取" />
+
+    <Button
+        android:id="@+id/btn_nfc_write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nfc写入" />
+
+
+</LinearLayout>
